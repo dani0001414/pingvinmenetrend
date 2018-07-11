@@ -24,7 +24,7 @@ function date() {
 }
 
 //const version = "v2018.07.10";
-const version = "v"+date();
+const version = "pv"+date();
 const PRECACHE = 'precache-' + version;
 const RUNTIME = 'runtime' + version;
 console.log(PRECACHE);
