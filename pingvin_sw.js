@@ -20,7 +20,7 @@
 const version = "v2";
 
 const PRECACHE = 'precache_pingvin-' + version;
-const RUNTIME = 'runtime_pingvin' + version;
+const RUNTIME = 'runtime_pingvin-' + version;
 console.log(PRECACHE);
 console.log(RUNTIME);
 // A list of local resources we always want to be cached.
