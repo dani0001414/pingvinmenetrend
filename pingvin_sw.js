@@ -15,24 +15,18 @@
 // Change to v2, etc. when you update any of the local resources, which will
 // in turn trigger the install event again.
 //const CACHE_VERSION = '{{ site.time }}';
-function date() {
-  var d = new Date();
-  var honap = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]; 
-  var honapnap = ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59"];
-  var dat= d.getFullYear()+"."+honap[d.getMonth()]+"."+honapnap[d.getDate()];
-  return dat;
-}
 
-//const version = "v2018.07.10";
-const version = "pv"+date();
-const PRECACHE = 'precache-' + version;
-const RUNTIME = 'runtime' + version;
+
+const version = "v2";
+
+const PRECACHE = 'precache_pingvin-' + version;
+const RUNTIME = 'runtime_pingvin' + version;
 console.log(PRECACHE);
 console.log(RUNTIME);
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
-  'index.html',
-  '',
+  'mm.html',
+  'https://i.imgur.com/5dZn6sc.png',
 ];
 
 // The install handler takes care of precaching the resources we always need.
@@ -58,31 +52,55 @@ self.addEventListener('activate', event => {
   );
 });
 
+const trimCache = (cacheName, maxItems) => {
+  caches.open(cacheName).then(cache => {
+    cache.keys().then(keys => {
+      if (keys.length > maxItems)
+        cache.delete(keys[0]).then(trimCache(cacheName, maxItems));
 
-const currentCaches = [PRECACHE, RUNTIME];
-caches.keys().then(cacheNames => {
-  return cacheNames.filter(cacheName => !currentCaches.includes(cacheName));
-}).then(cachesToDelete => {
-  return Promise.all(cachesToDelete.map(cacheToDelete => {
-    return caches.delete(cacheToDelete);
-  }));
-})
-    
-
+    });
+  });
+};
+function timestamp(b) {
+  var utcDate = b;
+  var localDate = new Date(utcDate);
+  var localDate = localDate.getTime() / 1000;
+  return localDate;
+}
+function aktualisido() {
+  var d = new Date().getTime();
+  return d / 1000;
+}
+var time;
 // The fetch handler serves responses for same-origin resources from a cache.
 // If no response is found, it populates the runtime cache with the response
 // from the network before returning it to the page.
+i = 0;
 self.addEventListener('fetch', event => {
   // Skip cross-origin requests, like those for Google Analytics.
   var same_origin = event.request.url.startsWith(self.location.origin);
   var google_fonts = event.request.url.startsWith('https://fonts');
   var twitch_cover = event.request.url.startsWith('https://static-cdn.jtvnw.net/twitch-event');
   var imgur = event.request.url.startsWith('https://i.imgur.com/9KP46NF.png');
+  var javascript = event.request.url.startsWith('https://dani0001414.github.io/TheVRMobilMenetrend/javascript_code.js');
+  var cached_time = null;
+  var cached_time_catch = false;
+  i++;
 
-  if (same_origin | google_fonts | imgur | twitch_cover) {
+  if (same_origin | google_fonts | imgur | twitch_cover | javascript) {
     event.respondWith(
       caches.match(event.request).then(cachedResponse => {
         if (cachedResponse) {
+          time = cachedResponse.headers.get("Date");
+          if (time != null) {
+            cached_time = timestamp(time);
+            time = aktualisido() - cached_time;
+            console.log('ido:', time);
+            if (432000 < time) {
+              trimCache(PRECACHE, 1);
+              trimCache(RUNTIME, 1);
+            }
+          }
           return cachedResponse;
         }
 
@@ -97,4 +115,4 @@ self.addEventListener('fetch', event => {
       })
     );
   }
-})
+});
