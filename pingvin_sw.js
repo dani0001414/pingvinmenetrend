@@ -19,13 +19,13 @@
 
 const version = "v2";
 
-const PRECACHE = 'precache_pingvin-' + version;
-const RUNTIME = 'runtime_pingvin-' + version;
+const PRECACHE = 'pprecache-' + version;
+const RUNTIME = 'rruntime-' + version;
 console.log(PRECACHE);
 console.log(RUNTIME);
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
-  'mm.html',
+  'index.html',
   'https://i.imgur.com/5dZn6sc.png',
 ];
 
