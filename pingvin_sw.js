@@ -87,7 +87,7 @@ self.addEventListener('fetch', event => {
   var cached_time_catch = false;
   i++;
 
-  if (same_origin | google_fonts | imgur | twitch_cover | javascript) {
+  if (same_origin | google_fonts | imgur | javascript) {
     event.respondWith(
       caches.match(event.request).then(cachedResponse => {
         if (cachedResponse) {
