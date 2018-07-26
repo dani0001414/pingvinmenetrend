@@ -332,9 +332,13 @@ function html_start() {
 
 
 	for (var i = 0; i < events_hossz; i++) {
-		if ((idomost > stream_start_elso) & (i == 0)) {
-			i = 1;
-		}
+		if (events_hossz > 1) {
+            if ((idomost > stream_start_elso) & (i == 0)) {
+                i = 1;
+            }
+        } else {
+            stream_start_elso = timestamp(events[0].node.endAt) + 7200; 
+        }
 		var cim_id = i + "_cim";
 		var cover_id = i + "_cover";
 		var time_id = i + "_time";
