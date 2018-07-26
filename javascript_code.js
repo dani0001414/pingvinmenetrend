@@ -1,1 +1,594 @@
-var a=['getTime','floor','getElementById','0_time','innerHTML','Hamarosan\x20kezdünk!<br>','MOST!','top','location','href','https://thevr.hu/mm/mm.html','substring',':00Z','getHours','getMinutes','getFullYear','getMonth','getDate','cookie','split','length','charAt','indexOf','getTimezoneOffset','getSeconds','<br>','live','_description','style','backgroundColor','white','border','1px\x20solid\x20#e5e3e8','color','black','body','Color','#faf9fa','getElementsByClassName','modal-content','createElement','script','src','head','appendChild','text','[{\x22variables\x22:{\x22channelLogin\x22:\x22fyrexxx\x22,\x22limit\x22:20,\x22before\x22:null,\x22after\x22:\x22','\x22,\x22sortOrder\x22:\x22ASC\x22,\x22following\x22:true},\x22extensions\x22:{},\x22operationName\x22:\x22EventsPage_EventScheduleQuery\x22,\x22query\x22:\x22query\x20EventsPage_EventScheduleQuery($channelLogin:\x20String!,\x20$limit:\x20Int,\x20$cursor:\x20Cursor,\x20$before:\x20Time,\x20$after:\x20Time,\x20$following:\x20Boolean!,\x20$sortOrder:\x20SortOrder)\x20{\x20\x20user(login:\x20$channelLogin)\x20{\x20\x20\x20\x20id\x20\x20\x20\x20eventLeaves(first:\x20$limit,\x20after:\x20$cursor,\x20criteria:\x20{endsBefore:\x20$before,\x20endsAfter:\x20$after,\x20sortOrder:\x20$sortOrder})\x20{\x20\x20\x20\x20\x20\x20pageInfo\x20{\x20\x20\x20\x20\x20\x20\x20\x20hasNextPage\x20\x20\x20\x20\x20\x20\x20\x20__typename\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20edges\x20{\x20\x20\x20\x20\x20\x20\x20\x20cursor\x20\x20\x20\x20\x20\x20\x20\x20node\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20id\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20self\x20@include(if:\x20$following)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20isFollowing\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20__typename\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20...\x20on\x20EventLeaf\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20title\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20startAt\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20endAt\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20game\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20id\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20displayName\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20__typename\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20channel\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20id\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20login\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20displayName\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20__typename\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20imageURL(width:\x20320,\x20height:\x20180)\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20__typename\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20__typename\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20__typename\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20__typename\x20\x20\x20\x20}\x20\x20\x20\x20__typename\x20\x20}}\x22}]','open','POST','setRequestHeader','Client-ID','vpyy1j86wtuetq8b6vbxlmubi0jxoe','Content-type','application/json','send','onreadystatechange','readyState','status','responseText','GET','no_stream','<img\x20src=\x22pingvin.png\x22\x20alt=\x2223\x22\x20width=\x22320\x22><br><h3\x20style=\x22font-family:rockwell;\x22>Eltünt\x20az\x20internet!<br>(Offline\x20módban\x20vagy!)</h3>','pingvinmmcookiepolicysagreement','pingvinmm_theme','pingvinmm_new_feature','onload','https://www.googletagmanager.com/gtag/js?id=UA-122179264-1','window.dataLayer\x20=\x20window.dataLayer\x20||\x20[];\x20\x20function\x20gtag(){dataLayer.push(arguments);}\x20\x20gtag(\x27js\x27,\x20new\x20Date());\x20\x20gtag(\x27config\x27,\x20\x27UA-122179264-1\x27);','addEventListener','DOMContentLoaded','replace','forum.thevr.hu/u/dani0001414/','forum.thevr.hu/u/danx27/','dani0001414\x20Ninjon','DanX27\x20Ninjon','log','DOM\x20fully\x20loaded\x20and\x20parsed','https://api.twitch.tv/helix/streams?user_id=40261250','myCookie','display','block','parse','data','thumbnail_url','title','type','{width}','640','{height}','360','game_id','started_at','https://gql.twitch.tv/gql','user','eventLeaves','edges','node','endAt','startAt','light','meta','name','theme-color','content','#0e0c13','getElementsByTagName','{\x22variables\x22:{\x22eventName\x22:\x22','\x22},\x22extensions\x22:{},\x22operationName\x22:\x22EventLandingPage_Event\x22,\x22query\x22:\x22query\x20EventLandingPage_Event($eventName:\x20ID!)\x20{\x20\x20event(id:\x20$eventName)\x20{\x20\x20\x20\x20__typename\x20\x20\x20\x20...\x20on\x20EventLeaf\x20{\x20\x20\x20\x20\x20\x20...EventLeafContent\x20\x20\x20\x20\x20\x20premiere\x20{\x20\x20\x20\x20\x20\x20\x20\x20...PremiereContent\x20\x20\x20\x20\x20\x20\x20\x20__typename\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20__typename\x20\x20\x20\x20}\x20\x20\x20\x20...\x20on\x20EventCollection\x20{\x20\x20\x20\x20\x20\x20...EventCollectionContent\x20\x20\x20\x20\x20\x20__typename\x20\x20\x20\x20}\x20\x20}}fragment\x20PremiereContent\x20on\x20Premiere\x20{\x20\x20status\x20\x20pastPremiere\x20{\x20\x20\x20\x20description\x20\x20\x20\x20__typename\x20\x20}\x20\x20__typename}fragment\x20EventLeafContent\x20on\x20EventLeaf\x20{\x20\x20description\x20\x20__typename}fragment\x20EventCollectionContent\x20on\x20EventCollection\x20{\x20\x20description\x20\x20__typename}\x22}','https://script.google.com/macros/s/AKfycbxCbGnpDeEjNd7Nwpm76MrIfc2efatkbGZyXszSgA45-e1d87M/exec','_cim','_cover','_time','_br','imageURL','320','180','%20','https://calendar.google.com/calendar/r/eventedit?dates=','&details&location&text=','&trp=false&sf=true','https://maestro.io/pkg/lt3-api/4.0/api/calendar/event.ics?alarm=','&details=&end=','&location=&stamp=20180704T213131Z&start=','&title=','https://calendar.yahoo.com/?v=60&view=d&type=20&title=','&st=','&et=','&uid=','<p><b>','</b></p>','<img\x20src=\x22','\x22\x20class=\x22aspect__fill\x22\x20width=\x22320\x22>','event','premiere','__typename','Premiere','#e52e26','1px\x20solid\x20#0c3033','<div\x20style=\x22color:\x20#fafbff\x22\x20><img\x20src=\x22https://i.imgur.com/VFXLMAL.png\x22><br><b>','</b></div></p>','<font\x20color=\x22yellow\x22>\x20+\x20','p</font>','<div\x20style=\x22overflow:\x20hidden;\x20width:\x20320px;\x22>\x20\x20\x20\x20<div\x20style=\x22float:left;\x20width:\x20155px\x22><center>','p</font></center></div>\x20\x20\x20\x20<div\x20style=\x22float:left;\x20margin-left:10px;\x20margin-top:10px\x22><center>-</center></div>\x09<div\x20style=\x22overflow:\x20hidden;\x20width:\x20155px\x20float:right;\x22><center>','</center></div></div>','</center></div>\x20\x20\x20\x20<div\x20style=\x22float:left;\x20margin-left:10px;\x20margin-top:10px\x22><center>-</center></div>\x09<div\x20style=\x22overflow:\x20hidden;\x20width:\x20155px\x20float:right;\x22><center>','#4b367c','#c3c1c8','0_cim','<a\x20target=\x22_blank\x22\x20href=\x22https://www.twitch.tv/fyrexxx\x22><img\x20src=\x22https://i.imgur.com/o1kyCnf.png\x22></a><br><b>','</b>','0_cover','<a\x20target=\x22_blank\x22\x20href=\x22https://www.twitch.tv/fyrexxx\x22><img\x20src=\x22','\x22\x20class=\x22aspect__fill\x22\x20width=\x22320\x22></a>','1_cim','1_cover','<img\x20src=\x22https://i.imgur.com/ZNlNn8J.png\x22><br><b>','meglepi','meglepi_br','meglepi_cim','<a\x20target=\x22_blank\x22\x20href=\x22https://www.twitch.tv/fyrexxx\x22><img\x20src=\x22https://i.imgur.com/gu6M3eu.png\x22></a><br><b>','meglepi_cover','meglepi_time','-Ameddig\x20tart</p>','<img\x20src=\x22pingvin.png\x22\x20alt=\x2223\x22\x20width=\x22320\x22><br><h3\x20style=\x22font-family:rockwell;\x22>Nessaj\x20jelenleg\x20egy\x20menetrendi\x20eseményt\x20sem\x20adott\x20meg!</h3>','myModal','myBtn','close','timestamp','new','meglepi_description','<b>Részletek:</b><br>','description','<br><br><a\x20style=\x22cursor:\x20pointer;\x20color:\x20grey;\x20text-decoration:\x20underline;\x22\x20onclick=\x22modal_open(',')\x22\x20>Hozzáadás\x20a\x20naptárhoz!</a>','<b>Részletek:</b><br>Az\x20eseményhez\x20nem\x20tartozik\x20részletes\x20leírás!<br><br><a\x20style=\x22cursor:\x20pointer;\x20color:\x20grey;\x20text-decoration:\x20underline;\x22\x20onclick=\x22modal_open(',')\x22\x20>Hozzáadás\x20a\x20naptárhoz!</a>\x20','none','popup_content','<b>Hozzáadás\x20a\x20naptáradhoz:</b><br><br><div\x20id=\x22light_popup\x22\x20><a\x20href=\x22','\x22><img\x20src=\x22https://vignette.wikia.nocookie.net/logopedia/images/9/9d/Google_logo_white_2015.svg\x22\x20class=\x22aspect__fill\x22\x20width=\x2287\x22></a>&nbsp;&nbsp;&nbsp;<a\x20href=\x22','\x22><img\x20src=\x22https://dani0001414.github.io/TheVRMobilMenetrend/ical_icon.svg\x22\x20class=\x22aspect__fill\x22\x20width=\x2258\x22></a>&nbsp;&nbsp;&nbsp;<a\x20href=\x22','\x22><img\x20src=\x22https://dani0001414.github.io/TheVRMobilMenetrend/Yahooicon.svg\x22\x20class=\x22aspect__fill\x22\x20width=\x2258\x22></a></div>','light_popup','filter','invert(100%)','dark','invert(0%)','cookie_settings','<span\x20id=\x22c_gomb\x22><span\x20style=\x22cursor:\x20pointer;\x20color:\x20grey;\x20text-decoration:\x20underline;\x22\x20onclick=\x22deleteAllCookies()\x22>Bekapcsolva</span></span>','<span\x20id=\x22c_gomb\x22><span\x20style=\x22cursor:\x20pointer;\x20color:\x20grey;\x20text-decoration:\x20underline;\x22\x20onclick=\x22createcookie(\x27pingvinmmcookiepolicysagreement\x27,1,365)\x22>Kikapcsolva</span></span>','<span\x20id=\x22theme_gomb\x22><span\x20style=\x22cursor:\x20pointer;\x20color:\x20grey;\x20text-decoration:\x20underline;\x22\x20onclick=\x22createcookie(\x27pingvinmm_theme\x27,\x27light\x27,365)\x22>Sötét</span></span>','<span\x20id=\x22theme_gomb\x22><span\x20style=\x22cursor:\x20pointer;\x20color:\x20grey;\x20text-decoration:\x20underline;\x22\x20onclick=\x22createcookie(\x27pingvinmm_theme\x27,\x27dark\x27,365)\x22>Világos</span></span>','Kikapcsolt\x20Cookie-val\x20nem\x20lehetésges.','<br><br><b>[Beállítások]</b><br><br>','<font\x20size=\x222\x22>Téma:\x20','<br><br></font>','<font\x20size=\x222\x22>Cookie-k\x20állapota:\x20','</font>','cookie_information','<br><br><b>[Cookie\x20Információ]</b><br><br>','<font\x20size=\x222\x22><div\x20align=\x22left\x22>A\x20MobilBarát\x20Menetrend\x20által\x20használt\x20cookie-k:<br><br><span\x20style=\x22color:\x20grey;\x22>pingvinmmcookiepolicysagreement:</span><br>A\x20döntésedet\x20tárolja\x20cookie-k\x20használatával\x20kapcsolatban.\x20Ha\x20nem\x20fogadtad\x20el,\x20akkor\x20a\x20többi\x20cookie\x20nem\x20lesz\x20használatban.<br><br><span\x20style=\x22color:\x20grey;\x22>pingvinmm_theme:</span><br>Az\x20általad\x20választott\x20téma\x20bellítását\x20tárolja<br><br><span\x20style=\x22color:\x20grey;\x22>pingvinmm_new_feature:</span><br>Azt\x20tárolja\x20mikor\x20láttad\x20az\x20új\x20funkciókról\x20szóló\x20értesítést,\x20hogy\x20feleslegesen\x20ne\x20jelenjen\x20meg\x20újra.<br><br><span\x20style=\x22color:\x20grey;\x22>Google\x20Analytics:</span><br>A\x20Google\x20Analitika\x20szolgáltatása\x20által\x20használt\x20Cookie-k\x20amelyek\x20anoním\x20módon\x20rögzítik,\x20hogy\x20miként\x20használod\x20az\x20oldalt.\x20Többek\x20között,\x20hogy\x20milyen\x20eszközről,\x20böngészőböl,\x20internet\x20szolgáltatón\x20keresztül\x20stb.\x20használod\x20az\x20oldalt.\x20Ez\x20segíti\x20a\x20későbbi\x20fejlesztéseket.</div></font>','<br><br><span\x20style=\x22color:\x20red\x22><b>[Újdonságok]</b></span><br><br>','setTime',';\x20expires=','toGMTString','banner','#17141f','1px\x20solid\x20#2e2b35','substr','=;expires=Thu,\x2001\x20Jan\x201970\x2000:00:00\x20GMT','=;\x20Path=/;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;','onclick','target'];var b=function(c,d){c=c-0x0;var e=a[c];return e;};function d(){var e=new Date()[b('0x0')]();return e/0x3e8;}function f(g){var h=g*0x3e8;var i=setInterval(function(){var j=new Date()[b('0x0')]();var k=h-j;var l=Math[b('0x1')](k/(0x3e8*0x3c*0x3c*0x18));var m=Math[b('0x1')](k%(0x3e8*0x3c*0x3c*0x18)/(0x3e8*0x3c*0x3c));var n=Math[b('0x1')](k%(0x3e8*0x3c*0x3c)/(0x3e8*0x3c));var o=Math[b('0x1')](k%(0x3e8*0x3c)/0x3e8);document[b('0x2')](b('0x3'))[b('0x4')]=b('0x5')+m+'h\x20'+n+'m\x20'+o+'s\x20';if(k<0x0){clearInterval(i);document[b('0x2')](b('0x3'))[b('0x4')]=b('0x6');window[b('0x7')][b('0x8')][b('0x9')]=b('0xa');}},0x3e8);}function p(q){var q=q[b('0xb')](0x0,0x10)+b('0xc');var s=q;var t=new Date(s);var u=t[b('0xd')]();var v=t[b('0xe')]();var w=['01','02','03','04','05','06','07','08','09','10','11','12'];var x=['00','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31'];var y=t[b('0xf')]()+'.'+w[t[b('0x10')]()]+'.'+x[t[b('0x11')]()];return y;}function z(A){var B=A+'=';var C=decodeURIComponent(document[b('0x12')]);var D=C[b('0x13')](';');for(var E=0x0;E<D[b('0x14')];E++){var F=D[E];while(F[b('0x15')](0x0)=='\x20'){F=F[b('0xb')](0x1);}if(F[b('0x16')](B)==0x0){return F[b('0xb')](B[b('0x14')],F[b('0x14')]);}}return 0x0;}function G(H){var I=new Date();var J=I[b('0x0')]()+I[b('0x17')]()*0xea60;var K=new Date(J+0x36ee80*H);var L=K[b('0xd')]();var M=K[b('0xe')]();var N=L*0x3c+M;var O=['01','02','03','04','05','06','07','08','09','10','11','12'];var P=['00','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59'];var Q=K[b('0xf')]()+'-'+O[K[b('0x10')]()]+'-'+P[K[b('0x11')]()]+'T'+P[L]+':'+P[M]+b('0xc');return Q;}function R(S){var S=S[b('0xb')](0x0,0x10)+b('0xc');var U=S;var V=new Date(U);var V=V[b('0x0')]()/0x3e8;return V;}function X(Y){var Y=Y[b('0xb')](0x0,0x10)+b('0xc');var a0=Y;var a1=new Date(a0);var a2=a1[b('0xd')]();var a3=a1[b('0xe')]();var a4=a1[b('0x18')]();var a5=['01','02','03','04','05','06','07','08','09','10','11','12'];var a6=['00','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59'];var a7=a1[b('0xf')]()+'.'+a5[a1[b('0x10')]()]+'.'+a6[a1[b('0x11')]()];var a3=a6[a1[b('0xe')]()];var a9=a2+':'+a3;var aa=a7+b('0x19')+a9;return aa;}function ab(){for(var ac=0x0;ac<aJ;ac++){if(ac==0x0&aL==b('0x1a')&(aK<aE+0xbb8&aK>aH-0xbb8)){document[b('0x2')](ac+b('0x1b'))[b('0x1c')][b('0x1d')]=b('0x1e');document[b('0x2')](ac+b('0x1b'))[b('0x1c')][b('0x1f')]=b('0x20');document[b('0x2')](ac+b('0x1b'))[b('0x1c')][b('0x21')]=b('0x22');}else{document[b('0x2')](ac)[b('0x1c')][b('0x1d')]=b('0x1e');document[b('0x2')](ac)[b('0x1c')][b('0x1f')]=b('0x20');document[b('0x2')](ac)[b('0x1c')][b('0x21')]=b('0x22');document[b('0x2')](ac+b('0x1b'))[b('0x1c')][b('0x1d')]=b('0x1e');document[b('0x2')](ac+b('0x1b'))[b('0x1c')][b('0x1f')]=b('0x20');document[b('0x2')](ac+b('0x1b'))[b('0x1c')][b('0x21')]=b('0x22');}}document[b('0x23')][b('0x1c')][b('0x24')]=b('0x22');document[b('0x23')][b('0x1c')][b('0x1d')]=b('0x25');document[b('0x26')](b('0x27'))[0x0][b('0x1c')][b('0x21')]=b('0x22');document[b('0x26')](b('0x27'))[0x0][b('0x1c')][b('0x1d')]=b('0x1e');}function ad(ae){var af=document[b('0x28')](b('0x29'));af[b('0x2a')]=ae;document[b('0x2b')][b('0x2c')](af);}function ag(ah){var ai=document[b('0x28')](b('0x29'));ai[b('0x2d')]=ah;document[b('0x2b')][b('0x2c')](ai);}function aj(ak,al){var am=new XMLHttpRequest();var an=b('0x2e')+aB+b('0x2f');am[b('0x30')](b('0x31'),ak,!![]);am[b('0x32')](b('0x33'),b('0x34'));am[b('0x32')](b('0x35'),b('0x36'));am[b('0x37')](an);am[b('0x38')]=function(){if(am[b('0x39')]==0x4&&am[b('0x3a')]==0xc8){al(am[b('0x3b')]);}};}function ao(ap,aq,ar){var as=new XMLHttpRequest();as[b('0x30')](b('0x31'),ap,!![]);as[b('0x32')](b('0x33'),b('0x34'));as[b('0x32')](b('0x35'),b('0x36'));as[b('0x37')](aq);as[b('0x38')]=function(){if(as[b('0x39')]==0x4&&as[b('0x3a')]==0xc8){ar(as[b('0x3b')]);}};}function at(au,av){var c=function(){var c=!![];return function(d,e){var f=c?function(){if(e){var g=e['apply'](d,arguments);e=null;return g;}}:function(){};c=![];return f;};}();var bV=c(this,function(){var c=function(){return'\x64\x65\x76';},d=function(){return'\x77\x69\x6e\x64\x6f\x77';};var e=function(){var f=new RegExp('\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d');return!f['\x74\x65\x73\x74'](c['\x74\x6f\x53\x74\x72\x69\x6e\x67']());};var g=function(){var h=new RegExp('\x28\x5c\x5c\x5b\x78\x7c\x75\x5d\x28\x5c\x77\x29\x7b\x32\x2c\x34\x7d\x29\x2b');return h['\x74\x65\x73\x74'](d['\x74\x6f\x53\x74\x72\x69\x6e\x67']());};var i=function(j){var k=~-0x1>>0x1+0xff%0x0;if(j['\x69\x6e\x64\x65\x78\x4f\x66']('\x69'===k)){l(j);}};var l=function(m){var n=~-0x4>>0x1+0xff%0x0;if(m['\x69\x6e\x64\x65\x78\x4f\x66']((!![]+'')[0x3])!==n){i(m);}};if(!e()){if(!g()){i('\x69\x6e\x64\u0435\x78\x4f\x66');}else{i('\x69\x6e\x64\x65\x78\x4f\x66');}}else{i('\x69\x6e\x64\u0435\x78\x4f\x66');}});bV();var aw=new XMLHttpRequest();aw[b('0x30')](b('0x3c'),au,!![]);aw[b('0x32')](b('0x33'),b('0x34'));aw[b('0x32')](b('0x35'),b('0x36'));aw[b('0x37')]();aw[b('0x38')]=function(){if(aw[b('0x39')]==0x4){if(aw[b('0x3a')]==0xc8){av(aw[b('0x3b')]);}else{document[b('0x2')](b('0x3d'))[b('0x4')]=b('0x3e');}}};}function ax(ay,az){var aA=new XMLHttpRequest();aA[b('0x38')]=function(){if(this[b('0x39')]==0x4&&this[b('0x3a')]==0xc8){az(aA[b('0x3b')]);}};aA[b('0x30')](b('0x3c'),ay,!![]);aA[b('0x37')]();}var aB=G(0x0);var aC,aD,aE,aF,aG,aH,aI,aJ,aK,aL,aP,aQ,aO,aP,aQ,aR,aS,aT,aU,aV,aW,aX,aY;var aZ=[];var b0=[];var b1=[];var b2=[];aU=z(b('0x3f'));if(aU==0x1){aV=z(b('0x40'));aG=z(b('0x41'));}if(aU==0x1){window[b('0x42')]=function(){ad(b('0x43'));ag(b('0x44'));};}document[b('0x45')](b('0x46'),function(b3){document[b('0x23')][b('0x4')]=document[b('0x23')][b('0x4')][b('0x47')](b('0x48'),b('0x49'));document[b('0x23')][b('0x4')]=document[b('0x23')][b('0x4')][b('0x47')](b('0x4a'),b('0x4b'));console[b('0x4c')](b('0x4d'));});at(b('0x4e'),b4);function b4(b5){if(aU!=0x1&aU!=-0x1){document[b('0x2')](b('0x4f'))[b('0x1c')][b('0x50')]=b('0x51');}aD=b5;aD=JSON[b('0x52')](aD);aQ=null;aP=null;aL=null;aO=null;if(aD[b('0x53')][b('0x14')]>0x0){aQ=aD[b('0x53')]['0'][b('0x54')];aP=aD[b('0x53')]['0'][b('0x55')];aL=aD[b('0x53')]['0'][b('0x56')];aQ=aQ[b('0x47')](b('0x57'),b('0x58'));aQ=aQ[b('0x47')](b('0x59'),b('0x5a'));aO=aD[b('0x53')]['0'][b('0x5b')];aX=X(aD[b('0x53')]['0'][b('0x5c')])[b('0x13')](b('0x19'));aW=p(aD[b('0x53')]['0'][b('0x5c')]);aK=R(aD[b('0x53')]['0'][b('0x5c')]);}if(aL==b('0x1a')){aB=aD[b('0x53')]['0'][b('0x5c')];}aj(b('0x5d'),b6);}function b6(b7){aC=b7;aC=JSON[b('0x52')](aC);aC=aC['0'][b('0x53')][b('0x5e')][b('0x5f')][b('0x60')];aJ=aC[b('0x14')];if(aJ!=0x0){aE=R(aC[0x0][b('0x61')][b('0x62')]);aH=R(aC[0x0][b('0x61')][b('0x63')]);stream_start_elso=R(aC[0x1][b('0x61')][b('0x63')]);stream_veg_elso=R(aC[0x1][b('0x61')][b('0x62')]);}if(aV==b('0x64')&aU==0x1){ab();}else{var b8=document[b('0x28')](b('0x65'));b8[b('0x66')]=b('0x67');b8[b('0x68')]=b('0x69');document[b('0x6a')](b('0x2b'))[0x0][b('0x2c')](b8);}var b9='[';for(var ba=0x0;ba<aJ;ba++){b9+=b('0x6b')+aC[ba][b('0x61')]['id']+b('0x6c');if(ba<aJ-0x1){b9+=',';}}b9+=']';ao(b('0x5d'),b9,bb);}function bb(bc){description_events=bc;description_events=JSON[b('0x52')](description_events);ax(b('0x6d'),by);bd();}function bd(){aF=d();var be,bf,bg,bh;var bi=0x0;for(var bj=0x0;bj<aJ;bj++){if(aF>stream_start_elso&bj==0x0){bj=0x1;}var bk=bj+b('0x6e');var bl=bj+b('0x6f');var bm=bj+b('0x70');var bn=bj+b('0x71');be=R(aC[bj][b('0x61')][b('0x62')]);bf=R(aC[bj][b('0x61')][b('0x63')]);bg=be+0xbb8;bh=bf-0xbb8;var bo=parseInt((aF-be)/0x3c,0xa);var bp=aC[bj][b('0x61')][b('0x72')];bp=bp[b('0x47')](b('0x73'),b('0x73'));bp=bp[b('0x47')](b('0x74'),b('0x74'));var bq=X(aC[bj][b('0x61')][b('0x63')])[b('0x13')](b('0x19'));var br=X(aC[bj][b('0x61')][b('0x62')])[b('0x13')](b('0x19'));var bs=aC[bj][b('0x61')][b('0x63')][b('0xb')](0x0,0x10)+b('0xc');bs=bs[b('0x47')](/-/g,'');bs=bs[b('0x47')](/:/g,'');var bt=aC[bj][b('0x61')][b('0x62')][b('0xb')](0x0,0x10)+b('0xc');bt=bt[b('0x47')](/-/g,'');bt=bt[b('0x47')](/:/g,'');var bu=aC[bj][b('0x61')][b('0x55')][b('0x47')](/ /g,'+');var bv=aC[bj][b('0x61')][b('0x55')][b('0x47')](/ /g,b('0x75'));aZ[bj]=b('0x76')+bs+'/'+bt+b('0x77')+bu+b('0x78');b0[bj]=b('0x79')+bt+b('0x7a')+bt+b('0x7b')+bs+b('0x7c')+bv;b2[bj]=b('0x7d')+bu+b('0x7e')+bs+b('0x7f')+bt+b('0x80');document[b('0x2')](bj)[b('0x1c')][b('0x50')]=b('0x51');document[b('0x2')](bn)[b('0x1c')][b('0x50')]=b('0x51');document[b('0x2')](bk)[b('0x4')]=b('0x81')+aC[bj][b('0x61')][b('0x55')]+b('0x82');document[b('0x2')](bl)[b('0x4')]=b('0x83')+bp+b('0x84');document[b('0x2')](bm)[b('0x4')]=bq[0x0]+b('0x19')+bq[0x1]+'-'+br[0x1];var bw=be-bf;if(description_events[bj][b('0x53')][b('0x85')][b('0x86')]!=null){if(description_events[bj][b('0x53')][b('0x85')][b('0x86')][b('0x87')]==b('0x88')){document[b('0x2')](bj)[b('0x1c')][b('0x1d')]=b('0x89');document[b('0x2')](bj)[b('0x1c')][b('0x1f')]=b('0x8a');document[b('0x2')](bj)[b('0x1c')][b('0x21')]=b('0x1e');document[b('0x2')](bk)[b('0x4')]=b('0x8b')+aC[bj][b('0x61')][b('0x55')]+b('0x8c');}}var bx=bf-aF;if(aK<be+0xbb8&aK>bf-0xbb8&bo>0x0&bq[0x0]==br[0x0]){document[b('0x2')](bm)[b('0x4')]=bq[0x0]+b('0x19')+bq[0x1]+'-'+br[0x1]+b('0x8d')+bo+b('0x8e');}else if(bq[0x0]==br[0x0]){if(bx<0x1c20&bx>0x0&aL!=b('0x1a')){f(bf);}else{document[b('0x2')](bm)[b('0x4')]=bq[0x0]+b('0x19')+bq[0x1]+'-'+br[0x1];}}else if(aK<be+0xbb8&aK>bf-0xbb8&bo>0x0){document[b('0x2')](bm)[b('0x4')]=b('0x8f')+bq[0x0]+b('0x19')+bq[0x1]+b('0x8d')+bo+b('0x90')+br[0x0]+b('0x19')+br[0x1]+b('0x91');}else{if(bx<0x1c20&bx>0x0&aL!=b('0x1a')){f(bf);}else{document[b('0x2')](bm)[b('0x4')]=b('0x8f')+bq[0x0]+b('0x19')+bq[0x1]+b('0x92')+br[0x0]+b('0x19')+br[0x1]+b('0x91');}}}if(aL==b('0x1a')&(aK<aE&aK>aH-0xbb8)&aF<stream_start_elso){document[b('0x2')]('0')[b('0x1c')][b('0x1d')]=b('0x93');document[b('0x2')]('0')[b('0x1c')][b('0x21')]=b('0x94');document[b('0x2')](b('0x95'))[b('0x4')]=b('0x96')+aP+b('0x97');document[b('0x2')](b('0x98'))[b('0x4')]=b('0x99')+aQ+b('0x9a');}else if(aF<stream_veg_elso&aF>stream_start_elso){document[b('0x2')]('1')[b('0x1c')][b('0x1d')]=b('0x93');document[b('0x2')]('1')[b('0x1c')][b('0x21')]=b('0x94');document[b('0x2')](b('0x9b'))[b('0x4')]=b('0x96')+aP+b('0x97');document[b('0x2')](b('0x9c'))[b('0x4')]=b('0x99')+aQ+b('0x9a');}else if(aF<aE&aF>aH){document[b('0x2')](b('0x95'))[b('0x4')]=b('0x9d')+aC[0x0][b('0x61')][b('0x55')]+b('0x97');}else if(aL==b('0x1a')){document[b('0x2')](b('0x9e'))[b('0x1c')][b('0x50')]=b('0x51');document[b('0x2')](b('0x9f'))[b('0x1c')][b('0x50')]=b('0x51');document[b('0x2')](b('0xa0'))[b('0x4')]=b('0xa1')+aP+b('0x97');document[b('0x2')](b('0xa2'))[b('0x4')]=b('0x83')+aQ+b('0x84');document[b('0x2')](b('0xa3'))[b('0x4')]=aW+b('0x19')+aX[0x1]+b('0xa4');}if(aJ==0x0&aL==b('0x1a')){document[b('0x2')](b('0x9e'))[b('0x1c')][b('0x50')]=b('0x51');document[b('0x2')](b('0x9f'))[b('0x1c')][b('0x50')]=b('0x51');document[b('0x2')](b('0xa0'))[b('0x4')]=b('0xa1')+aP+b('0x97');document[b('0x2')](b('0xa2'))[b('0x4')]=b('0x83')+aQ+b('0x84');document[b('0x2')](b('0xa3'))[b('0x4')]=aW+b('0x19')+aX[0x1]+b('0xa4');}else if(aJ==0x0){document[b('0x2')](b('0x3d'))[b('0x4')]=b('0xa5');}aR=document[b('0x2')](b('0xa6'));aT=document[b('0x2')](b('0xa7'));aS=document[b('0x26')](b('0xa8'))[0x0];}function by(bz){aY=bz;aY=JSON[b('0x52')](aY);var bA=aF-aY[b('0xa9')];if(bA<0x127500&aG<aY[b('0xa9')]&aU==0x1){modal_open(b('0xaa'));}}function hide_and_show(bB,bC){if(bB!=b('0xab')){if(bC==0x0&aL==b('0x1a')&(aK<aE+0xbb8&aK>aH-0xbb8)){document[b('0x2')](bB)[b('0x4')]=b('0xac')+description_events[bC][b('0x53')][b('0x85')][b('0xad')]+'';}else if(description_events[bC][b('0x53')][b('0x85')][b('0xad')]){document[b('0x2')](bB)[b('0x4')]=b('0xac')+description_events[bC][b('0x53')][b('0x85')][b('0xad')]+b('0xae')+bC+b('0xaf');}else{document[b('0x2')](bB)[b('0x4')]=b('0xb0')+bC+b('0xb1');}}var bD=document[b('0x2')](bB);if(bD[b('0x1c')][b('0x50')]===b('0xb2')){bD[b('0x1c')][b('0x50')]=b('0x51');}else{bD[b('0x1c')][b('0x50')]=b('0xb2');}}function modal_open(bE){aU=z(b('0x3f'));if(aU==0x1){aV=z(b('0x40'));}aR[b('0x1c')][b('0x50')]=b('0x51');if(typeof bE===typeof 0x3){document[b('0x2')](b('0xb3'))[b('0x4')]=b('0xb4')+aZ[bE]+b('0xb5')+b0[bE]+b('0xb6')+b2[bE]+b('0xb7');if(aV==b('0x64')){document[b('0x2')](b('0xb8'))[b('0x1c')][b('0xb9')]=b('0xba');}if(aV==b('0xbb')){document[b('0x2')](b('0xb8'))[b('0x1c')][b('0xb9')]=b('0xbc');}}if(bE==b('0xbd')){var bF,bG;if(aU==0x1){bF=b('0xbe');}else{bF=b('0xbf');}if(aU==0x1){aV=z(b('0x40'));if(aV==b('0xbb')|aV==0x0){bG=b('0xc0');}if(aV==b('0x64')){bG=b('0xc1');}}else{bG=b('0xc2');}document[b('0x2')](b('0xb3'))[b('0x4')]=b('0xc3');document[b('0x2')](b('0xb3'))[b('0x4')]+=b('0xc4')+bG+b('0xc5');document[b('0x2')](b('0xb3'))[b('0x4')]+=b('0xc6')+bF+b('0xc7');}if(bE==b('0xc8')){document[b('0x2')](b('0xb3'))[b('0x4')]=b('0xc9');document[b('0x2')](b('0xb3'))[b('0x4')]+=b('0xca');document[b('0x2')](b('0xb3'))[b('0x4')]+='';}if(bE==b('0xaa')){document[b('0x2')](b('0xb3'))[b('0x4')]=b('0xcb')+aY[b('0x68')];createcookie(b('0x41'),aY[b('0xa9')],0x16d);}}function createcookie(bH,bI,bJ,bK){var bL;if(bJ){var bM=new Date();bM[b('0xcc')](bM[b('0x0')]()+bJ*0x18*0x3c*0x3c*0x3e8);bL=b('0xcd')+bM[b('0xce')]();}else{bL='';}document[b('0x12')]=bH+'='+bI+bL;if(bK==b('0xcf')){document[b('0x2')](b('0x4f'))[b('0x1c')][b('0x50')]=b('0xb2');}else if(bH!=b('0x41')){modal_open(b('0xbd'));}if(bH==b('0x40')){if(bI==b('0xbb')){for(var bN=0x0;bN<aJ;bN++){if(bN==0x0&aL==b('0x1a')&(aK<aE+0xbb8&aK>aH-0xbb8)){document[b('0x2')](bN+b('0x1b'))[b('0x1c')][b('0x1d')]=b('0xd0');document[b('0x2')](bN+b('0x1b'))[b('0x1c')][b('0x1f')]=b('0xd1');document[b('0x2')](bN+b('0x1b'))[b('0x1c')][b('0x21')]=b('0x94');}else{document[b('0x2')](bN)[b('0x1c')][b('0x1d')]=b('0xd0');document[b('0x2')](bN)[b('0x1c')][b('0x1f')]=b('0xd1');document[b('0x2')](bN)[b('0x1c')][b('0x21')]=b('0x94');document[b('0x2')](bN+b('0x1b'))[b('0x1c')][b('0x1d')]=b('0xd0');document[b('0x2')](bN+b('0x1b'))[b('0x1c')][b('0x1f')]=b('0xd1');document[b('0x2')](bN+b('0x1b'))[b('0x1c')][b('0x21')]=b('0x94');}}document[b('0x23')][b('0x1c')][b('0x24')]=b('0x94');document[b('0x23')][b('0x1c')][b('0x1d')]=b('0x69');document[b('0x26')](b('0x27'))[0x0][b('0x1c')][b('0x21')]=b('0x94');document[b('0x26')](b('0x27'))[0x0][b('0x1c')][b('0x1d')]=b('0xd0');}if(bI==b('0x64')){ab();}modal_open(b('0xbd'));}}function deleteAllCookies(bO){var bP=document[b('0x12')][b('0x13')](';');for(var bQ=0x0;bQ<bP[b('0x14')];bQ++){var bR=bP[bQ];var bS=bR[b('0x16')]('=');var bT=bS>-0x1?bR[b('0xd2')](0x0,bS):bR;document[b('0x12')]=bT+b('0xd3');document[b('0x12')]=bT+b('0xd4');}createcookie(b('0x3f'),-0x1,0x14,b('0xcf'));if(bO==b('0xcf')){document[b('0x2')](b('0x4f'))[b('0x1c')][b('0x50')]=b('0xb2');createcookie(b('0x3f'),-0x1,0x14,b('0xcf'));}else{modal_open(b('0xbd'));}}function spanonclick(){aR[b('0x1c')][b('0x50')]=b('0xb2');}window[b('0xd5')]=function(bU){if(bU[b('0xd6')]==aR){aR[b('0x1c')][b('0x50')]=b('0xb2');}};
+function aktualisido() {
+
+	var d = new Date().getTime();
+	return d / 1000;	  
+}
+
+function countdown(a) {
+	// Set the date we're counting down to
+	var countDownDate = a * 1000;
+
+	// Update the count down every 1 second
+	var x = setInterval(function () {
+
+		// Get todays date and time
+		var now = new Date().getTime();
+
+		// Find the distance between now an the count down date
+		var distance = countDownDate - now;
+
+		// Time calculations for days, hours, minutes and seconds
+		var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+		// Output the result in an element with id="demo"
+		document.getElementById("0_time").innerHTML = "Hamarosan kezdünk!<br>" + hours + "h "
+			+ minutes + "m " + seconds + "s ";
+
+
+		// If the count down is over, write some text 
+		if (distance < 0) {
+			clearInterval(x);
+			document.getElementById("0_time").innerHTML = "MOST!";
+			window.top.location.href = "https://thevr.hu/mm/mm.html";
+		}
+	}, 1000);
+}
+
+function datesc(b) {
+	var b = b.substring(0, 16) + ":00Z";
+	var utcDate = b;
+	var localDate = new Date(utcDate);
+
+	var ora = localDate.getHours();
+	var perc = localDate.getMinutes();
+	var honap = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
+	var honapnap = ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"];
+	var dat = localDate.getFullYear() + "." + honap[localDate.getMonth()] + "." + honapnap[localDate.getDate()];
+
+	return dat;
+}
+
+function getCookie(cname) {
+	var name = cname + "=";
+	var decodedCookie = decodeURIComponent(document.cookie);
+	var ca = decodedCookie.split(';');
+	for (var i = 0; i < ca.length; i++) {
+		var c = ca[i];
+		while (c.charAt(0) == ' ') {
+			c = c.substring(1);
+		}
+		if (c.indexOf(name) == 0) {
+			return c.substring(name.length, c.length);
+		}
+	}
+	return 0;
+}
+
+function calcTime(offset) {
+	/*Szerveridőbe konvertál*/
+	var nd = new Date();
+	var utc = nd.getTime() + (nd.getTimezoneOffset() * 60000);
+	var d = new Date(utc + (3600000 * offset));
+	var hour = d.getHours();
+	var min = d.getMinutes();
+	var aktido = hour * 60 + min;
+	var honap = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
+	var honapnap = ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59"];
+	var aktdatum = d.getFullYear() + "-" + honap[d.getMonth()] + "-" + honapnap[d.getDate()] + "T" + honapnap[hour] + ":" + honapnap[min] + ":00Z";
+	return aktdatum;
+}
+
+function timestamp(b) {
+	var b = b.substring(0, 16) + ":00Z";
+	var utcDate = b;
+	var localDate = new Date(utcDate);
+	var localDate = localDate.getTime() / 1000;
+	return localDate;
+}
+
+function TimeConvert(a) {
+	var a = a.substring(0, 16) + ":00Z";
+	var utcDate = a;
+	var localDate = new Date(utcDate);
+
+	var ora = localDate.getHours();
+	var perc = localDate.getMinutes();
+	var masodperc = localDate.getSeconds();
+	var honap = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
+	var honapnap = ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59"];
+	var dat = localDate.getFullYear() + "." + honap[localDate.getMonth()] + "." + honapnap[localDate.getDate()];
+
+	var perc = honapnap[localDate.getMinutes()];
+	var ido = ora + ":" + perc;
+	var kezdes = dat + "<br>" + ido;
+
+
+	return kezdes;
+}
+
+function light() {
+
+	for (var i = 0; i < events_hossz; i++) {
+		if ((i == 0) & (live_allapot == "live") & ((livetimestamp < stream_veg_nulladik + 3000) & (livetimestamp > stream_start_nulladik - 3000))) {
+			document.getElementById(i + "_description").style.backgroundColor = "white";
+			document.getElementById(i + "_description").style.border = "1px solid #e5e3e8";
+			document.getElementById(i + "_description").style.color = "black";
+		} else {
+			document.getElementById(i).style.backgroundColor = "white";
+			document.getElementById(i).style.border = "1px solid #e5e3e8";
+			document.getElementById(i).style.color = "black";
+			document.getElementById(i + "_description").style.backgroundColor = "white";
+			document.getElementById(i + "_description").style.border = "1px solid #e5e3e8";
+			document.getElementById(i + "_description").style.color = "black";
+		}
+
+	}
+	document.body.style.Color = "black";
+	document.body.style.backgroundColor = "#faf9fa";
+	document.getElementsByClassName("modal-content")[0].style.color = "black";
+	document.getElementsByClassName("modal-content")[0].style.backgroundColor = "white";
+
+
+
+}
+
+function dynamicallyLoadScript(url) {
+	var script = document.createElement("script"); // Make a script DOM node
+	script.src = url; // Set it's src to the provided URl
+	document.head.appendChild(script); // Add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
+}
+
+function dynamicallyLoadScript_content(content) {
+	var script = document.createElement("script"); // Make a script DOM node
+	script.text = content; // Set it's src to the provided URL
+	document.head.appendChild(script); // Add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
+}
+
+function http_post(url, callback) {
+	var http = new XMLHttpRequest();
+	/*mikortol = "2018-06-10T14:26:00Z";*/
+	var params = "[{\"variables\":{\"channelLogin\":\"fyrexxx\",\"limit\":20,\"before\":null,\"after\":\"" + mikortol + "\",\"sortOrder\":\"ASC\",\"following\":true},\"extensions\":{},\"operationName\":\"EventsPage_EventScheduleQuery\",\"query\":\"query EventsPage_EventScheduleQuery($channelLogin: String!, $limit: Int, $cursor: Cursor, $before: Time, $after: Time, $following: Boolean!, $sortOrder: SortOrder) {  user(login: $channelLogin) {    id    eventLeaves(first: $limit, after: $cursor, criteria: {endsBefore: $before, endsAfter: $after, sortOrder: $sortOrder}) {      pageInfo {        hasNextPage        __typename      }      edges {        cursor        node {          id          self @include(if: $following) {            isFollowing            __typename          }          ... on EventLeaf {            title            startAt            endAt            game {              id              displayName              __typename            }            channel {              id              login              displayName              __typename            }            imageURL(width: 320, height: 180)            __typename          }          __typename        }        __typename      }      __typename    }    __typename  }}\"}]";
+	http.open('POST', url, true);
+	/*kérésküldés*/
+	http.setRequestHeader('Client-ID', 'vpyy1j86wtuetq8b6vbxlmubi0jxoe');
+	http.setRequestHeader('Content-type', 'application/json');
+	http.send(params);
+	http.onreadystatechange = function () {
+		if (http.readyState == 4 && http.status == 200) {
+			callback(http.responseText);
+		}
+	}
+}
+
+function http_post2(url, params, callback) {
+	var http = new XMLHttpRequest();
+	http.open('POST', url, true);
+	/*kérésküldés*/
+	http.setRequestHeader('Client-ID', 'vpyy1j86wtuetq8b6vbxlmubi0jxoe');
+	http.setRequestHeader('Content-type', 'application/json');
+	http.send(params);
+	http.onreadystatechange = function () {
+		if (http.readyState == 4 && http.status == 200) {
+			callback(http.responseText);
+		}
+	}
+
+}
+
+function http_get(url, callback) {
+	var http = new XMLHttpRequest();
+	http.open('GET', url, true);
+	/*Kérésküldés*/
+	http.setRequestHeader('Client-ID', 'vpyy1j86wtuetq8b6vbxlmubi0jxoe');
+	http.setRequestHeader('Content-type', 'application/json');
+	http.send();
+	http.onreadystatechange = function () {
+		if (http.readyState == 4) {
+			if (http.status == 200) {
+				callback(http.responseText);
+			} else {
+				document.getElementById("no_stream").innerHTML = "<img src=\"pingvin.png\" alt=\"23\" width=\"320\"><br><h3 style=\"font-family:rockwell;\">Eltünt az internet!<br>(Offline módban vagy!)</h3>";
+			}
+		}
+	}
+
+}
+
+function http_get_feture(url, callback) {
+
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function () {
+		if (this.readyState == 4 && this.status == 200) {
+			callback(xhttp.responseText);
+		}
+	};
+	xhttp.open("GET", url, true);
+	xhttp.send();
+}
+
+/*Változtatás : stream_veg_nulladik, stream_start_nulladik változók deklarálása itt. */
+var mikortol = calcTime(0);
+var events, live_adat, stream_veg_nulladik, idomost, pingvinmm_new_feature, stream_start_nulladik, description_event, events_hossz, livetimestamp, live_allapot, cim_live, cover_live, game_id_s, cim_live, cover_live, modal, span, btn, cookie_settings, theme_status, live_dat, live_start, new_function;
+var google_calendar_link = [];
+var ical_calendar_link = [];
+var outlook_calendar_link = [];
+var yahoo_calendar_link = [];
+
+/*Cookie lekérdezések*/
+cookie_settings = getCookie("pingvinmmcookiepolicysagreement");
+if (cookie_settings == 1) {
+	theme_status = getCookie("pingvinmm_theme");
+	pingvinmm_new_feature = getCookie("pingvinmm_new_feature");
+}
+
+if (cookie_settings == 1) {
+	window.onload = function () {
+
+		dynamicallyLoadScript("https://www.googletagmanager.com/gtag/js?id=UA-122179264-1");
+		dynamicallyLoadScript_content("window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'UA-122179264-1');");
+	}
+}
+
+document.addEventListener("DOMContentLoaded", function (event) {
+	document.body.innerHTML = document.body.innerHTML.replace("forum.thevr.hu/u/dani0001414/", "forum.thevr.hu/u/danx27/");
+	document.body.innerHTML = document.body.innerHTML.replace("dani0001414 Ninjon", "DanX27 Ninjon");
+//	document.body.innerHTML = document.body.innerHTML.replace(/dani0001414/g, "DanX27");
+	console.log("DOM fully loaded and parsed");
+});															 
+http_get("https://api.twitch.tv/helix/streams?user_id=40261250", events_array);
+
+/*http_get live api lekérő meghívja a funkciót és átadja a callback változót*/
+function events_array(data) {
+	/*Ha még nem erősítette meg a felhasználó, hogy elfogadja e a cookie-kat vagy sem akkor megjeleníti az alsó bannert már itt, hogy gyorsabban megjelenjen!*/
+	if ((cookie_settings != 1) & (cookie_settings != -1)) {
+		document.getElementById("myCookie").style.display = 'block';
+	}
+
+	live_adat = data;
+	live_adat = JSON.parse(live_adat);
+	cover_live = null;
+	cim_live = null;
+	live_allapot = null;
+	game_id_s = null;
+	if (live_adat.data.length > 0) {
+		cover_live = live_adat.data['0'].thumbnail_url;
+		cim_live = live_adat.data['0'].title;
+		live_allapot = live_adat.data['0'].type;
+		cover_live = cover_live.replace("{width}", "640");
+		cover_live = cover_live.replace("{height}", "360");
+		game_id_s = live_adat.data['0'].game_id;  /*493057==PUBG*/
+
+		live_start = TimeConvert(live_adat.data['0'].started_at).split("<br>");
+		live_dat = datesc(live_adat.data['0'].started_at);
+		livetimestamp = timestamp(live_adat.data['0'].started_at);
+
+	}
+
+	if (live_allapot == "live") { mikortol = live_adat.data['0'].started_at; }
+
+	http_post("https://gql.twitch.tv/gql", events_array2);
+}
+
+/*http_post menetrend api lekérő meghívja a funkciót és átadja a callback változót*/
+function events_array2(data) {
+	events = data;
+	events = JSON.parse(events);
+	events = events["0"].data.user.eventLeaves.edges;
+	events_hossz = events.length;
+
+	/*Változtatás : Ha az events tömb nem nulla akkor az első elem kezdési és végetérési időpontját beletesszük a stream_veg_nulladik és a stream_start_nulladik változókba. */
+	if (events_hossz != 0) {
+		stream_veg_nulladik = timestamp(events[0].node.endAt);
+		stream_start_nulladik = timestamp(events[0].node.startAt);
+		stream_start_elso = timestamp(events[1].node.startAt);
+		stream_veg_elso = timestamp(events[1].node.endAt);
+	}
+
+	if ((theme_status == "light") & (cookie_settings == 1)) {
+		light();					   														 
+	} else {
+		var meta = document.createElement("meta");
+		meta.name = "theme-color";
+		meta.content = "#0e0c13";
+		document.getElementsByTagName('head')[0].appendChild(meta);
+	}
+
+	var jsonstring_d = "[";
+
+	for (var i = 0; i < events_hossz; i++) {
+		jsonstring_d += "{\"variables\":{\"eventName\":\"" + events[i].node.id + "\"},\"extensions\":{},\"operationName\":\"EventLandingPage_Event\",\"query\":\"query EventLandingPage_Event($eventName: ID!) {  event(id: $eventName) {    __typename    ... on EventLeaf {      ...EventLeafContent      premiere {        ...PremiereContent        __typename      }      __typename    }    ... on EventCollection {      ...EventCollectionContent      __typename    }  }}fragment PremiereContent on Premiere {  status  pastPremiere {    description    __typename  }  __typename}fragment EventLeafContent on EventLeaf {  description  __typename}fragment EventCollectionContent on EventCollection {  description  __typename}\"}";
+		if (i < events_hossz - 1) { jsonstring_d += ","; }
+	}
+	jsonstring_d += "]";
+
+	http_post2("https://gql.twitch.tv/gql", jsonstring_d, events_array3);
+}
+
+/*http_post2 menetrend részletek api lekérő meghívja a funkciót és átadja a callback változót*/
+function events_array3(data) {
+	description_events = data;
+	description_events = JSON.parse(description_events);
+	http_get_feture("https://script.google.com/macros/s/AKfycbxCbGnpDeEjNd7Nwpm76MrIfc2efatkbGZyXszSgA45-e1d87M/exec", new_features);
+	html_start();
+}
+
+/*Feltölti az üres DIV-eket a menetrendi információkkal*/
+function html_start() {
+	/*var exampleSocket = new WebSocket("ws://irc.chat.twitch.tv:443", ["protocolOne", "protocolTwo"]);*/
+
+	/*exampleSocket.onmessage = function (event) {
+		exampleSocket.send("JOIN #wearethevr");
+		console.log(event.data);
+	}*/
+	idomost = aktualisido();
+	var stream_veg, stream_start, stream_extraveg, streamextrastart;
+	var menetrend_stream_count = 0;
+	
+
+
+	for (var i = 0; i < events_hossz; i++) {
+				if ((idomost > stream_start_elso) & (i == 0)) {
+			i=1;	
+		}										 
+		var cim_id = i + "_cim";
+		var cover_id = i + "_cover";
+		var time_id = i + "_time";
+		var br_id = i + "_br";
+		stream_veg = timestamp(events[i].node.endAt);
+		stream_start = timestamp(events[i].node.startAt);
+		stream_extraveg = stream_veg + 3000;
+		streamextrastart = stream_start - 3000;
+		var eltelt = parseInt((idomost - stream_veg) / 60, 10);
+
+		/*var stream_div = document.createElement('div');
+		stream_div.id = i;
+		document.getElementsByTagName('body')[0].appendChild(iDiv);
+		*/
+
+		var cover = events[i].node.imageURL;
+		cover = cover.replace("320", "320");
+		cover = cover.replace("180", "180");
+
+		var start_time = TimeConvert(events[i].node.startAt).split("<br>");
+		var end_time = TimeConvert(events[i].node.endAt).split("<br>");
+
+		/*calendar kompatibilis idők*/
+		var g_calendar_s = events[i].node.startAt.substring(0, 16) + ":00Z";
+		g_calendar_s = g_calendar_s.replace(/-/g, "");
+		g_calendar_s = g_calendar_s.replace(/:/g, "");
+
+
+		var g_calendar_e = events[i].node.endAt.substring(0, 16) + ":00Z";
+		g_calendar_e = g_calendar_e.replace(/-/g, "");
+		g_calendar_e = g_calendar_e.replace(/:/g, "");
+
+
+		var g_calendar_title = events[i].node.title.replace(/ /g, "+");
+		var ical_calendar_title = events[i].node.title.replace(/ /g, "%20");
+
+		/*Calendar Linkek létrehozása*/
+		google_calendar_link[i] = "https://calendar.google.com/calendar/r/eventedit?dates=" + g_calendar_s + "/" + g_calendar_e + "&details&location&text=" + g_calendar_title + "&trp=false&sf=true"
+		ical_calendar_link[i] = "https://maestro.io/pkg/lt3-api/4.0/api/calendar/event.ics?alarm=" + g_calendar_e + "&details=&end=" + g_calendar_e + "&location=&stamp=20180704T213131Z&start=" + g_calendar_s + "&title=" + ical_calendar_title;
+		yahoo_calendar_link[i] = "https://calendar.yahoo.com/?v=60&view=d&type=20&title=" + g_calendar_title + "&st=" + g_calendar_s + "&et=" + g_calendar_e + "&uid=";
+
+		/*Feltölteni kívánt Div-ek megjelenítése a rejtésből és adatokkal való feltöltésük*/
+		document.getElementById(i).style.display = 'block';
+		document.getElementById(br_id).style.display = 'block';
+		document.getElementById(cim_id).innerHTML = "<p><b>" + events[i].node.title + "</b></p>";
+		document.getElementById(cover_id).innerHTML = "<img src=\"" + cover + "\" class=\"aspect__fill\" width=\"320\">";
+		document.getElementById(time_id).innerHTML = start_time[0] + "<br>" + start_time[1] + "-" + end_time[1];
+
+		var stream_hossz = stream_veg - stream_start;
+		/*Változtatás: Ha az idő 2400másodpercnél kisebb akkor Premier-ről van szó és átszinezzük.*/
+		if (description_events[i].data.event.premiere != null) {
+			if ((description_events[i].data.event.premiere.__typename == "Premiere")) {
+				document.getElementById(i).style.backgroundColor = "#e52e26";
+				document.getElementById(i).style.border = "1px solid #0c3033";
+				document.getElementById(i).style.color = "white";
+				document.getElementById(cim_id).innerHTML = "<div style=\"color: #fafbff\" ><img src=\"https://i.imgur.com/VFXLMAL.png\"><br><b>" + events[i].node.title + "</b></div></p>";
+			}
+		}
+		/*majd 7200 legyen */
+		var countdown_kezdes = stream_start - idomost;								
+		/*A menetrendi idő jelzésének módjának változtatása ha eltérő dátumú kedés és befejezés és ha a stream tovább tart mint a várt*/
+		if ((livetimestamp < stream_veg + 3000) & (livetimestamp > stream_start - 3000) & (eltelt > 0) & (start_time[0] == end_time[0])) {
+			document.getElementById(time_id).innerHTML = start_time[0] + "<br>" + start_time[1] + "-" + end_time[1] + "<font color=\"yellow\"> + " + eltelt + "p</font>";
+		} else if (start_time[0] == end_time[0]) {
+			if ((countdown_kezdes < 7200) & (countdown_kezdes > 0) & (live_allapot != "live")) { countdown(stream_start); } else { document.getElementById(time_id).innerHTML = start_time[0] + "<br>" + start_time[1] + "-" + end_time[1]; }
+		} else if ((livetimestamp < stream_veg + 3000) & (livetimestamp > stream_start - 3000) & (eltelt > 0)) {
+			document.getElementById(time_id).innerHTML = "<div style=\"overflow: hidden; width: 320px;\">    <div style=\"float:left; width: 155px\"><center>" + start_time[0] + "<br>" + start_time[1] + "<font color=\"yellow\"> + " + eltelt + "p</font></center></div>    <div style=\"float:left; margin-left:10px; margin-top:10px\"><center>-</center></div>	<div style=\"overflow: hidden; width: 155px float:right;\"><center>" + end_time[0] + "<br>" + end_time[1] + "</center></div></div>";
+		} else {
+			if  ((countdown_kezdes < 7200) & (countdown_kezdes > 0) & (live_allapot != "live")) { countdown(stream_start); } else { document.getElementById(time_id).innerHTML = "<div style=\"overflow: hidden; width: 320px;\">    <div style=\"float:left; width: 155px\"><center>" + start_time[0] + "<br>" + start_time[1] + "</center></div>    <div style=\"float:left; margin-left:10px; margin-top:10px\"><center>-</center></div>	<div style=\"overflow: hidden; width: 155px float:right;\"><center>" + end_time[0] + "<br>" + end_time[1] + "</center></div></div>"; }
+		}
+	}
+
+
+	/*Ha az első menetrendi elem lefedi a stream indítást akkor az első elem streamelődik. Ha nem akkor meglepi stream.(Változtatás : kivettem a fenti if ágból. stream_veg_nulladik és stream_start_nulladik változók használata. ) */
+	if ((live_allapot == "live") & ((livetimestamp < stream_veg_nulladik) & (livetimestamp > stream_start_nulladik - 3000)) & (idomost < stream_start_elso)) {  /*Ha előfordulna, hogy jóval előbb indítják a streamet akkormég vagy-ként livetimestamp helyett idomost-al is vizsgálni. */
+		document.getElementById("0").style.backgroundColor = "#4b367c";
+		document.getElementById("0").style.color = "#c3c1c8";
+		document.getElementById("0_cim").innerHTML = "<a target=\"_blank\" href=\"https://www.twitch.tv/fyrexxx\"><img src=\"https://i.imgur.com/o1kyCnf.png\"></a><br><b>" + cim_live + "</b>";
+		document.getElementById("0_cover").innerHTML = "<a target=\"_blank\" href=\"https://www.twitch.tv/fyrexxx\"><img src=\"" + cover_live + "\" class=\"aspect__fill\" width=\"320\"></a>";
+	} else if ((idomost < stream_veg_elso) & (idomost > stream_start_elso))
+	{
+		document.getElementById("1").style.backgroundColor = "#4b367c";
+		document.getElementById("1").style.color = "#c3c1c8";
+		document.getElementById("1_cim").innerHTML = "<a target=\"_blank\" href=\"https://www.twitch.tv/fyrexxx\"><img src=\"https://i.imgur.com/o1kyCnf.png\"></a><br><b>" + cim_live + "</b>";
+		document.getElementById("1_cover").innerHTML = "<a target=\"_blank\" href=\"https://www.twitch.tv/fyrexxx\"><img src=\"" + cover_live + "\" class=\"aspect__fill\" width=\"320\"></a>";
+	} else if ((idomost < stream_veg_nulladik) & (idomost > stream_start_nulladik)) {  /*Ha előfordulna, hogy jóval előbb indítják a streamet akkormég vagy-ként livetimestamp helyett idomost-al is vizsgálni. */
+		document.getElementById("0_cim").innerHTML = "<img src=\"https://i.imgur.com/ZNlNn8J.png\"><br><b>" + events[0].node.title + "</b>";
+	} else if (live_allapot == "live") {
+		document.getElementById("meglepi").style.display = 'block';
+		document.getElementById("meglepi_br").style.display = 'block';
+		document.getElementById("meglepi_cim").innerHTML = "<a target=\"_blank\" href=\"https://www.twitch.tv/fyrexxx\"><img src=\"https://i.imgur.com/gu6M3eu.png\"></a><br><b>" + cim_live + "</b>";
+		document.getElementById("meglepi_cover").innerHTML = "<img src=\"" + cover_live + "\" class=\"aspect__fill\" width=\"320\">";
+		document.getElementById("meglepi_time").innerHTML = live_dat + "<br>" + live_start[1] + "-Ameddig tart</p>";
+
+	}
+	/*Változtatás : Ha az events tömb hosszúsága nulla és élő közvetítés van akkor meglepi stream. Ellenkező esetbeh ha nincs stream és csak a tömb hossza nulla akkor no_stream div feltöltése a rejtés megjelenítés helyett. Html-ben mindig betöltődött a 125kb nagyságú kép rejtésből megjelenítéses módszernél. ) */
+	if ((events_hossz == 0) & (live_allapot == "live")) {
+		document.getElementById("meglepi").style.display = 'block';
+		document.getElementById("meglepi_br").style.display = 'block';
+		document.getElementById("meglepi_cim").innerHTML = "<a target=\"_blank\" href=\"https://www.twitch.tv/fyrexxx\"><img src=\"https://i.imgur.com/gu6M3eu.png\"></a><br><b>" + cim_live + "</b>";
+		document.getElementById("meglepi_cover").innerHTML = "<img src=\"" + cover_live + "\" class=\"aspect__fill\" width=\"320\">";
+		document.getElementById("meglepi_time").innerHTML = live_dat + "<br>" + live_start[1] + "-Ameddig tart</p>";
+	} else if (events_hossz == 0) {
+		document.getElementById("no_stream").innerHTML = "<img src=\"pingvin.png\" alt=\"23\" width=\"320\"><br><h3 style=\"font-family:rockwell;\">Nessaj jelenleg egy menetrendi eseményt sem adott meg!</h3>";
+	}
+
+	// Get the modal ws3school script
+	modal = document.getElementById('myModal');
+
+	// Get the button that opens the modal
+	btn = document.getElementById("myBtn");
+
+	// Get the <span> element that closes the modal
+	span = document.getElementsByClassName("close")[0];
+
+
+
+}
+
+function new_features(data) {
+	new_function = data;
+	new_function = JSON.parse(new_function);
+
+	var new_function_week = idomost - new_function.timestamp;
+	if ((new_function_week < 1209600) & (pingvinmm_new_feature < new_function.timestamp) & (cookie_settings == 1)) {
+		modal_open("new");
+	}
+}
+/*Részletek megjelenítése és elrejtése*/
+function hide_and_show(element_id, i) {
+	/*Ha nem meglepi stream leírása akkor részletekkel töltjük fel részletek div-et.(Változtatás : else if ágba került egy rész ami a lekért leírást beilleszti ha nem üres. Ha üres akkor kiírja, hogy nem tartozik hozzá leírás.) */
+	if (element_id != "meglepi_description") {
+		if ((i == 0) & (live_allapot == "live") & ((livetimestamp < stream_veg_nulladik + 3000) & (livetimestamp > stream_start_nulladik - 3000))) {
+			document.getElementById(element_id).innerHTML = "<b>Részletek:</b><br>" + description_events[i].data.event.description + "";
+		} else if (description_events[i].data.event.description) {
+			document.getElementById(element_id).innerHTML = "<b>Részletek:</b><br>" + description_events[i].data.event.description + "<br><br><a style=\"cursor: pointer; color: grey; text-decoration: underline;\" onclick=\"modal_open(" + i + ")\" >Hozzáadás a naptárhoz!</a>";
+		} else { document.getElementById(element_id).innerHTML = "<b>Részletek:</b><br>Az eseményhez nem tartozik részletes leírás!<br><br><a style=\"cursor: pointer; color: grey; text-decoration: underline;\" onclick=\"modal_open(" + i + ")\" >Hozzáadás a naptárhoz!</a> "; }
+	}
+	var x = document.getElementById(element_id);
+	if (x.style.display === "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
+
+}
+
+/*Popup ablak megnyitó*/
+function modal_open(i) {
+	cookie_settings = getCookie("pingvinmmcookiepolicysagreement");
+	if (cookie_settings == 1) { theme_status = getCookie("pingvinmm_theme"); }
+	modal.style.display = "block";
+	if (typeof i === typeof 3) {
+
+		/*Változtatás: theme_status dark rész ha világos témáról vált vissza valaki akkor rögtön visszavált.*/
+
+		document.getElementById("popup_content").innerHTML = "<b>Hozzáadás a naptáradhoz:</b><br><br><div id=\"light_popup\" ><a href=\"" + google_calendar_link[i] + "\"><img src=\"https://vignette.wikia.nocookie.net/logopedia/images/9/9d/Google_logo_white_2015.svg\" class=\"aspect__fill\" width=\"87\"></a>&nbsp;&nbsp;&nbsp;<a href=\"" + ical_calendar_link[i] + "\"><img src=\"https://dani0001414.github.io/TheVRMobilMenetrend/ical_icon.svg\" class=\"aspect__fill\" width=\"58\"></a>&nbsp;&nbsp;&nbsp;<a href=\"" + yahoo_calendar_link[i] + "\"><img src=\"https://dani0001414.github.io/TheVRMobilMenetrend/Yahooicon.svg\" class=\"aspect__fill\" width=\"58\"></a></div>";
+		if (theme_status == "light") { document.getElementById("light_popup").style.filter = "invert(100%)"; }
+		if (theme_status == "dark") { document.getElementById("light_popup").style.filter = "invert(0%)"; }  /*Változtatás itt ez */
+	}
+	if (i == "cookie_settings") {
+
+		var cookie_al_string, theme_cookie;
+		if (cookie_settings == 1) { cookie_al_string = "<span id=\"c_gomb\"><span style=\"cursor: pointer; color: grey; text-decoration: underline;\" onclick=\"deleteAllCookies()\">Bekapcsolva</span></span>"; } else { cookie_al_string = "<span id=\"c_gomb\"><span style=\"cursor: pointer; color: grey; text-decoration: underline;\" onclick=\"createcookie('pingvinmmcookiepolicysagreement',1,365)\">Kikapcsolva</span></span>"; }
+		if (cookie_settings == 1) {
+			theme_status = getCookie("pingvinmm_theme");
+			if ((theme_status == "dark") | (theme_status == 0)) { theme_cookie = "<span id=\"theme_gomb\"><span style=\"cursor: pointer; color: grey; text-decoration: underline;\" onclick=\"createcookie('pingvinmm_theme','light',365)\">Sötét</span></span>"; }
+			if (theme_status == "light") { theme_cookie = "<span id=\"theme_gomb\"><span style=\"cursor: pointer; color: grey; text-decoration: underline;\" onclick=\"createcookie('pingvinmm_theme','dark',365)\">Világos</span></span>"; }
+		} else { theme_cookie = "Kikapcsolt Cookie-val nem lehetésges."; }
+		document.getElementById("popup_content").innerHTML = "<br><br><b>[Beállítások]</b><br><br>";
+		document.getElementById("popup_content").innerHTML += "<font size=\"2\">Téma: " + theme_cookie + "<br><br></font>";
+		document.getElementById("popup_content").innerHTML += "<font size=\"2\">Cookie-k állapota: " + cookie_al_string + "</font>";
+	}
+	if (i == "cookie_information") {
+		document.getElementById("popup_content").innerHTML = "<br><br><b>[Cookie Információ]</b><br><br>";
+		document.getElementById("popup_content").innerHTML += "<font size=\"2\"><div align=\"left\">A MobilBarát Menetrend által használt cookie-k:<br><br><span style=\"color: grey;\">pingvinmmcookiepolicysagreement:</span><br>A döntésedet tárolja cookie-k használatával kapcsolatban. Ha nem fogadtad el, akkor a többi cookie nem lesz használatban.<br><br><span style=\"color: grey;\">pingvinmm_theme:</span><br>Az általad választott téma bellítását tárolja<br><br><span style=\"color: grey;\">pingvinmm_new_feature:</span><br>Azt tárolja mikor láttad az új funkciókról szóló értesítést, hogy feleslegesen ne jelenjen meg újra.<br><br><span style=\"color: grey;\">Google Analytics:</span><br>A Google Analitika szolgáltatása által használt Cookie-k amelyek anoním módon rögzítik, hogy miként használod az oldalt. Többek között, hogy milyen eszközről, böngészőböl, internet szolgáltatón keresztül stb. használod az oldalt. Ez segíti a későbbi fejlesztéseket.</div></font>";
+		document.getElementById("popup_content").innerHTML += ""
+	}
+	if (i == "new") {
+		document.getElementById("popup_content").innerHTML = "<br><br><span style=\"color: red\"><b>[Újdonságok]</b></span><br><br>" + new_function.content;
+		createcookie('pingvinmm_new_feature', new_function.timestamp, 365)
+	}
+}
+
+/*Cookie létrehozó*/
+function createcookie(name, value, days, banner) {
+	var expires;
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+		expires = "; expires=" + date.toGMTString();
+	}
+	else {
+		expires = "";
+	}
+	document.cookie = name + "=" + value + expires;
+
+	if (banner == "banner") { document.getElementById("myCookie").style.display = 'none'; } else if( name != "pingvinmm_new_feature")  { modal_open("cookie_settings"); }
+	/*Téma választó cookie létrehozásával egyben át is váltjuk az általa képviselt kinézetre*/
+	if (name == "pingvinmm_theme") {
+		if (value == "dark") {
+
+			for (var i = 0; i < events_hossz; i++) {
+				if ((i == 0) & (live_allapot == "live") & ((livetimestamp < stream_veg_nulladik + 3000) & (livetimestamp > stream_start_nulladik - 3000))) {
+					document.getElementById(i + "_description").style.backgroundColor = "#17141f";
+					document.getElementById(i + "_description").style.border = "1px solid #2e2b35";
+					document.getElementById(i + "_description").style.color = "#c3c1c8";
+				} else {
+					document.getElementById(i).style.backgroundColor = "#17141f";
+					document.getElementById(i).style.border = "1px solid #2e2b35";
+					document.getElementById(i).style.color = "#c3c1c8";
+					document.getElementById(i + "_description").style.backgroundColor = "#17141f";
+					document.getElementById(i + "_description").style.border = "1px solid #2e2b35"; /*Változtatás ezt itt*/
+					document.getElementById(i + "_description").style.color = "#c3c1c8";
+				}
+			}
+			document.body.style.Color = "#c3c1c8";
+			document.body.style.backgroundColor = "#0e0c13";
+			/*Változtatás : A lenti két dolog, hogy ezek is visszaváltozanak témaváltoztatásnál az oldal újratöltése nélkül, illetve vent a border-t: */
+			document.getElementsByClassName("modal-content")[0].style.color = "#c3c1c8";
+			document.getElementsByClassName("modal-content")[0].style.backgroundColor = "#17141f";
+		}
+		if (value == "light") {
+			light();
+		}
+		modal_open("cookie_settings");
+	}
+}
+
+function deleteAllCookies(banner) {
+	var cookies = document.cookie.split(";");
+
+	for (var i = 0; i < cookies.length; i++) {
+		var cookie = cookies[i];
+		var eqPos = cookie.indexOf("=");
+		var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+		document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+		document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+	}
+	createcookie('pingvinmmcookiepolicysagreement', -1, 20, 'banner');
+	if (banner == "banner") {
+		document.getElementById("myCookie").style.display = 'none';
+		createcookie('pingvinmmcookiepolicysagreement', -1, 20, 'banner');
+	} else { modal_open("cookie_settings"); }
+
+
+}
+
+// When the user clicks on <span> (x), close the modal
+function spanonclick() {
+	modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+	if (event.target == modal) {
+		modal.style.display = "none";
+	}
+}
